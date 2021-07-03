@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+h1{
+	font-size: 60px;
+	text-align: center;
+	background-repeat: no-repeat;
+	min-height: 15vh;
+	color: rgb(233, 197, 143);
+	margin: 0%;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+.container{
+	background-image: url("./images/space6.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 90vh;
+	padding-top: 8vh;
+	margin: 0%;
+}
+
+.grid {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 37vw;
+	margin-top: 7vh;
+	padding-bottom: 10vh;
+	background-image: url("./images/space3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	outline: none;
+	border: solid 10px;
+    border-color: #67a9df;
+    box-shadow: 0 0 10px #9ecaed;
+	
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-image: url("./images/spaceship.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.shooter {
+	width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 30px solid red;
+}
+
+.laser {
+	background-image: url("./images/flame2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+}
+
